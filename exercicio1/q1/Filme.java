@@ -1,14 +1,19 @@
 public class Filme {
     private String nome;
-    private String nacionalidade;
+    private String genero;
+    private Integer anoLancamento;
 
-    public Filme(String nome, String nacionalidade) {
+    public Filme() {
+    }
+    
+    public Filme(String nome, String genero, Integer anoLancamento) {
         this.nome = nome;
-        this.nacionalidade = nacionalidade;
+        this.genero = genero;
+        this.anoLancamento = anoLancamento;
     }
 
     @Override
     public String toString() {
-        return "Nome: " + nome + ", Nacionalidade: " + nacionalidade;
+        return "Filme [nome=" + nome + ", genero=" + genero + ", anoLancamento=" + anoLancamento + "]";
     }
 }
