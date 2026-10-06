@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PooApplication<poo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.aula4.poo.PooApplication",
+            "projectName": "poo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
