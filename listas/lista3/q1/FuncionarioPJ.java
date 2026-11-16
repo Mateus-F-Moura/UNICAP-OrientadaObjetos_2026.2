@@ -1,5 +1,5 @@
 public class FuncionarioPJ extends Funcionario {
-    public FuncionarioCLT (String nome, Double salarioBase) {
+    public FuncionarioPJ (String nome, Double salarioBase) {
         super(nome, salarioBase);
     }
 
