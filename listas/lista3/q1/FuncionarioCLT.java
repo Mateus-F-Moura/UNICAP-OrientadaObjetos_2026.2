@@ -5,6 +5,6 @@ public class FuncionarioCLT extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return super.getSalarioBase()  + (super.salarioBase() * (10.0 / 100));
+        return super.getSalarioBase()  + (super.getSalarioBase() * (10.0 / 100));
     }
 }
