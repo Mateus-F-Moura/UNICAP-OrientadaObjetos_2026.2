@@ -3,8 +3,7 @@ public class Divisao {
         try {
             return x / y;
         } catch (ArithmeticException e) {
-            System.out.println("Erro! Não é possível dividir por zero: " + e);
-            return 0.0;
+            throw new ArithmeticException("Erro! Não é possível dividir por zero: " + e);
         } finally {
             System.out.println("Operação encerrada");
         }
