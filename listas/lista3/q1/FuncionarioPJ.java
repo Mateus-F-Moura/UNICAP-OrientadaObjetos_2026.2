@@ -5,6 +5,6 @@ public class FuncionarioPJ extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return super.getSalarioBase()  + (super.getSalarioBase() * (5.0 / 100));
+        return super.getSalarioBase() - (super.getSalarioBase() * (5.0 / 100));
     }
 }

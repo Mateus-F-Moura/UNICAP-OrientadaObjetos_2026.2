@@ -25,7 +25,7 @@ public class Conta {
 
     public void transferir(Conta destino, double valor) {
         if (valor <= 0) {
-            throw new IllegalArgumentException("Erro: valor não pode ser zero");
+            throw new IllegalArgumentException("Erro: valor deve ser maior que zero");
         }
         if (destino == null) {
             throw new IllegalArgumentException("Erro: conta inexistente");

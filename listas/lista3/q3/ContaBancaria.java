@@ -1,4 +1,4 @@
-public class ContaBancaria {
+public abstract class ContaBancaria {
     private String titular;
     private double saldo;
 
@@ -27,13 +27,11 @@ public class ContaBancaria {
         saldo += valor;
     }
 
-    public void sacar(double valor) {
-        saldo -= valor;
-    }
+    public abstract void sacar(double valor);
 
     @Override
     public String toString() {
         return "Titular: " + titular +
-                "Saldo: " + saldo;
+                ", Saldo: " + saldo;
     }
 }

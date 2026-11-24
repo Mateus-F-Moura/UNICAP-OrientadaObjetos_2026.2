@@ -15,9 +15,7 @@ public abstract class Funcionario {
         return salarioBase;
     }
 
-    public double calcularSalario() {
-        return salarioBase;
-    }
+    public abstract double calcularSalario();
 
     @Override
     public String toString() {

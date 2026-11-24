@@ -5,6 +5,6 @@ public class ContaCorrente extends ContaBancaria{
 
     @Override
     public void sacar(double valor) {
-        super.sacar(valor + 2.0);
+        setSaldo(getSaldo() - valor - 2.0);
     }
 }
